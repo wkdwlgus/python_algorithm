@@ -1,0 +1,20 @@
+# .gitignore
+
+# Python 캐시/바이트코드
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 환경/비밀 키
+*.env
+config.json
+
+# OS/IDE
+.DS_Store
+.vscode/
+
+# 프로젝트 특화 제외
+사전테스트문제/
+test.py
