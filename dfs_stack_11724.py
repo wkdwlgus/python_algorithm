@@ -1,3 +1,5 @@
+# 연결 요소의 개수
+
 import sys
 sys.setrecursionlimit(10**6)
 
@@ -13,6 +15,8 @@ for _ in range(M):
     graph[u].append(v)
     graph[v].append(u)
     
+
+
 
 def dfs_stack(start, graph, visited):
     visited[start] = True
